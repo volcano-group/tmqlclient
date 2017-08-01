@@ -1,7 +1,6 @@
 import React, { Component, PropTypes } from 'react';
-import { graphql, withApollo } from 'react-apollo';
+import {  withApollo } from 'react-apollo';
 import gql from 'graphql-tag';
-import Post from './post'
 
 
 class ParseForm  extends Component {
